@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/xianwei.webp</file>
+        <file>icon/xianwei_1.webp</file>
+    </qresource>
+</RCC>

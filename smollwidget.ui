@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>smollwidget</class>
+ <widget class="QWidget" name="smollwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>329</width>
+    <height>213</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>宋体</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>倍数选择：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>16倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>16.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>17倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>17.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>18倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>18.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>21倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>21.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>22倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>22.5倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>23倍</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>23.5倍</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>串口选择：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="PortBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>串口选择</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>开始放大</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="OpenSerialButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>打开串口</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QTextEdit" name="DataReceived">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>500</width>
+       <height>40</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>开始聚焦</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

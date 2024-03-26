@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1165</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>自适应变倍显微的大范围微观瑕疵检测系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icon.qrc">
+    <normaloff>:/new/prefix1/icon/xianwei.webp</normaloff>:/new/prefix1/icon/xianwei.webp</iconset>
+  </property>
+  <property name="toolTip">
+   <string>自适应变倍显微的大范围表面微观瑕疵检测系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_45">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>宋体</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="4" column="0">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Maximum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>15</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <widget class="QPushButton" name="breakIP">
+            <property name="toolTip">
+             <string>断开连接</string>
+            </property>
+            <property name="text">
+             <string>断开连接</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="2">
+           <widget class="QWidget" name="widget_6" native="true">
+            <layout class="QGridLayout" name="gridLayout_6">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QPushButton" name="openBtn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="sizeIncrement">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="baseSize">
+                <size>
+                 <width>0</width>
+                 <height>38</height>
+                </size>
+               </property>
+               <property name="toolTip">
+                <string>相机设置</string>
+               </property>
+               <property name="text">
+                <string>打开相机</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPushButton" name="saveBtn">
+               <property name="toolTip">
+                <string>保存图片</string>
+               </property>
+               <property name="text">
+                <string>保存图片</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="2">
+           <widget class="QWidget" name="widget_3" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QToolBox" name="toolBox">
+               <property name="toolTip">
+                <string>主运动设置</string>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <property name="tabSpacing">
+                <number>4</number>
+               </property>
+               <widget class="QWidget" name="widget_4">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>282</width>
+                  <height>494</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>主运动控制</string>
+                </attribute>
+                <layout class="QGridLayout" name="gridLayout_20">
+                 <item row="0" column="0">
+                  <widget class="QScrollArea" name="scrollArea">
+                   <property name="font">
+                    <font>
+                     <family>宋体</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="widgetResizable">
+                    <bool>false</bool>
+                   </property>
+                   <widget class="QWidget" name="scrollAreaWidgetContents">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>0</y>
+                      <width>248</width>
+                      <height>650</height>
+                     </rect>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_12">
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <item row="0" column="0">
+                      <widget class="QWidget" name="widget_20" native="true">
+                       <layout class="QGridLayout" name="gridLayout_19">
+                        <item row="0" column="0">
+                         <widget class="QWidget" name="widget_8" native="true">
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>185</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>150</height>
+                           </size>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_10">
+                           <property name="leftMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="rightMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="horizontalSpacing">
+                            <number>0</number>
+                           </property>
+                           <property name="verticalSpacing">
+                            <number>3</number>
+                           </property>
+                           <item row="0" column="1" rowspan="2">
+                            <widget class="QWidget" name="widget_10" native="true">
+                             <layout class="QGridLayout" name="gridLayout_7">
+                              <item row="4" column="0">
+                               <widget class="QLineEdit" name="decSpeedEdit1">
+                                <property name="toolTip">
+                                 <string>减速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="2" column="0">
+                               <widget class="QLineEdit" name="srampEdit1">
+                                <property name="toolTip">
+                                 <string>起始速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="1" column="0">
+                               <widget class="QLineEdit" name="speedEdit1">
+                                <property name="toolTip">
+                                 <string>电机速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="0" column="0">
+                               <widget class="QLineEdit" name="pulseEdit1">
+                                <property name="toolTip">
+                                 <string>脉冲当量</string>
+                                </property>
+                                <property name="toolTipDuration">
+                                 <number>-2</number>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="3" column="0">
+                               <widget class="QLineEdit" name="accSpeedEdit1">
+                                <property name="toolTip">
+                                 <string>加速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="5" column="0">
+                               <widget class="QLineEdit" name="ISpeedEdit1">
+                                <property name="toolTip">
+                                 <string>s曲线时间</string>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item row="0" column="0" rowspan="2">
+                            <widget class="QWidget" name="widget_9" native="true">
+                             <layout class="QGridLayout" name="gridLayout_9">
+                              <item row="0" column="0">
+                               <widget class="QLabel" name="label_2">
+                                <property name="toolTip">
+                                 <string>脉冲当量</string>
+                                </property>
+                                <property name="text">
+                                 <string>脉冲当量</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="3" column="0">
+                               <widget class="QLabel" name="label_3">
+                                <property name="toolTip">
+                                 <string>加速度</string>
+                                </property>
+                                <property name="text">
+                                 <string>加速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="1" column="0">
+                               <widget class="QLabel" name="label_4">
+                                <property name="toolTip">
+                                 <string>速度</string>
+                                </property>
+                                <property name="text">
+                                 <string>速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="5" column="0">
+                               <widget class="QLabel" name="label_7">
+                                <property name="toolTip">
+                                 <string>s曲线时间</string>
+                                </property>
+                                <property name="text">
+                                 <string>s曲线时间</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="4" column="0">
+                               <widget class="QLabel" name="label_6">
+                                <property name="toolTip">
+                                 <string>减速度</string>
+                                </property>
+                                <property name="text">
+                                 <string>减速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item row="2" column="0">
+                               <widget class="QLabel" name="label_5">
+                                <property name="toolTip">
+                                 <string>起始速度</string>
+                                </property>
+                                <property name="text">
+                                 <string>起始速度</string>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="1" column="0">
+                         <widget class="QWidget" name="widget_19" native="true">
+                          <layout class="QGridLayout" name="gridLayout_16">
+                           <item row="2" column="0">
+                            <widget class="QRadioButton" name="continueBut1">
+                             <property name="text">
+                              <string>持续运动</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0">
+                            <widget class="QRadioButton" name="motionBut1">
+                             <property name="text">
+                              <string>电机寸动</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="2" column="0">
+                         <widget class="QWidget" name="widget_11" native="true">
+                          <layout class="QGridLayout" name="gridLayout_11">
+                           <item row="2" column="1">
+                            <widget class="QLineEdit" name="nowdistanceEdit1">
+                             <property name="toolTip">
+                              <string>轴当前位置</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="1">
+                            <widget class="QLineEdit" name="movedistanceEdit1">
+                             <property name="toolTip">
+                              <string>移动距离</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="0">
+                            <widget class="QLabel" name="label_8">
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="toolTip">
+                              <string>移动距离</string>
+                             </property>
+                             <property name="text">
+                              <string>移动距离：</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="label_9">
+                             <property name="toolTip">
+                              <string>轴当前位置</string>
+                             </property>
+                             <property name="text">
+                              <string>轴当前位置：</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item row="3" column="0">
+                         <widget class="QWidget" name="widget_5" native="true">
+                          <layout class="QGridLayout" name="gridLayout_8">
+                           <item row="0" column="0">
+                            <widget class="QPushButton" name="frontBut1">
+                             <property name="toolTip">
+                              <string>电机正转</string>
+                             </property>
+                             <property name="text">
+                              <string>电机正转</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="1">
+                            <widget class="QPushButton" name="reversalBut1">
+                             <property name="toolTip">
+                              <string>电机方转</string>
+                             </property>
+                             <property name="text">
+                              <string>电机反转</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QPushButton" name="pressfrontBut1">
+                             <property name="toolTip">
+                              <string>长按正转</string>
+                             </property>
+                             <property name="text">
+                              <string>长按正转</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="1">
+                            <widget class="QPushButton" name="pressreversalBut1">
+                             <property name="toolTip">
+                              <string>长按方转</string>
+                             </property>
+                             <property name="text">
+                              <string>长按反转</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0">
+                            <widget class="QPushButton" name="setOrigin1">
+                             <property name="toolTip">
+                              <string>设置原点</string>
+                             </property>
+                             <property name="text">
+                              <string>设置原点</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="1">
+                            <widget class="QPushButton" name="rebackOrigin1">
+                             <property name="toolTip">
+                              <string>回到原点</string>
+                             </property>
+                             <property name="text">
+                              <string>回到原点</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0" colspan="2">
+                            <widget class="QPushButton" name="stopBut1">
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>40</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>40</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>停止</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="page_4">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>261</width>
+                  <height>738</height>
+                 </rect>
+                </property>
+                <attribute name="label">
+                 <string>副运动控制</string>
+                </attribute>
+                <layout class="QGridLayout" name="gridLayout_21">
+                 <item row="0" column="0">
+                  <widget class="QWidget" name="widget_15" native="true">
+                   <layout class="QGridLayout" name="gridLayout_18">
+                    <item row="3" column="0">
+                     <widget class="QWidget" name="widget_17" native="true">
+                      <layout class="QGridLayout" name="gridLayout_4">
+                       <item row="0" column="1">
+                        <widget class="QPushButton" name="reversalBut2">
+                         <property name="toolTip">
+                          <string>电机反转</string>
+                         </property>
+                         <property name="text">
+                          <string>电机反转</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="1">
+                        <widget class="QPushButton" name="rebackOrigin2">
+                         <property name="toolTip">
+                          <string>回到原点</string>
+                         </property>
+                         <property name="text">
+                          <string>自动调零</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="0">
+                        <widget class="QPushButton" name="pressfrontBut2">
+                         <property name="toolTip">
+                          <string>长按正转</string>
+                         </property>
+                         <property name="text">
+                          <string>长按正转</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="0">
+                        <widget class="QPushButton" name="frontBut2">
+                         <property name="toolTip">
+                          <string>电机正转</string>
+                         </property>
+                         <property name="text">
+                          <string>电机正转</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0" colspan="2">
+                        <widget class="QPushButton" name="stopBut2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>35</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>35</height>
+                          </size>
+                         </property>
+                         <property name="sizeIncrement">
+                          <size>
+                           <width>0</width>
+                           <height>35</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>停止</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="1">
+                        <widget class="QPushButton" name="pressreversalBut2">
+                         <property name="toolTip">
+                          <string>长按反转</string>
+                         </property>
+                         <property name="text">
+                          <string>长按反转</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="0">
+                        <widget class="QPushButton" name="setOrigin2">
+                         <property name="toolTip">
+                          <string>设置原点</string>
+                         </property>
+                         <property name="text">
+                          <string>设置原点</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QWidget" name="widget_16" native="true">
+                      <layout class="QGridLayout" name="gridLayout_17">
+                       <item row="2" column="0">
+                        <widget class="QLabel" name="label_16">
+                         <property name="toolTip">
+                          <string>轴当前位置</string>
+                         </property>
+                         <property name="text">
+                          <string>轴当前位置：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="label_17">
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="toolTip">
+                          <string>移动距离</string>
+                         </property>
+                         <property name="text">
+                          <string>移动距离：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="1">
+                        <widget class="QLineEdit" name="nowdistanceEdit2">
+                         <property name="toolTip">
+                          <string>轴当前位置</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="1">
+                        <widget class="QLineEdit" name="movedistanceEdit2">
+                         <property name="toolTip">
+                          <string>移动距离</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QWidget" name="widget_12" native="true">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>185</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_13">
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="horizontalSpacing">
+                        <number>0</number>
+                       </property>
+                       <property name="verticalSpacing">
+                        <number>3</number>
+                       </property>
+                       <item row="0" column="1" rowspan="2">
+                        <widget class="QWidget" name="widget_13" native="true">
+                         <layout class="QGridLayout" name="gridLayout_14">
+                          <item row="1" column="0">
+                           <widget class="QLineEdit" name="speedEdit2">
+                            <property name="toolTip">
+                             <string>电机速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="0" column="0">
+                           <widget class="QLineEdit" name="pulseEdit2">
+                            <property name="toolTip">
+                             <string>脉冲当量</string>
+                            </property>
+                            <property name="toolTipDuration">
+                             <number>-2</number>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="2" column="0">
+                           <widget class="QLineEdit" name="srampEdit2">
+                            <property name="toolTip">
+                             <string>起始速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="3" column="0">
+                           <widget class="QLineEdit" name="accSpeedEdit2">
+                            <property name="toolTip">
+                             <string>加速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="4" column="0">
+                           <widget class="QLineEdit" name="decSpeedEdit2">
+                            <property name="toolTip">
+                             <string>减速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="5" column="0">
+                           <widget class="QLineEdit" name="ISpeedEdit2">
+                            <property name="toolTip">
+                             <string>s曲线时间</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="0" column="0" rowspan="2">
+                        <widget class="QWidget" name="widget_14" native="true">
+                         <layout class="QGridLayout" name="gridLayout_15">
+                          <item row="0" column="0">
+                           <widget class="QLabel" name="label_10">
+                            <property name="toolTip">
+                             <string>脉冲当量</string>
+                            </property>
+                            <property name="text">
+                             <string>脉冲当量</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="3" column="0">
+                           <widget class="QLabel" name="label_11">
+                            <property name="toolTip">
+                             <string>加速度</string>
+                            </property>
+                            <property name="text">
+                             <string>加速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="1" column="0">
+                           <widget class="QLabel" name="label_12">
+                            <property name="toolTip">
+                             <string>速度</string>
+                            </property>
+                            <property name="text">
+                             <string>速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="5" column="0">
+                           <widget class="QLabel" name="label_13">
+                            <property name="toolTip">
+                             <string>s曲线时间</string>
+                            </property>
+                            <property name="text">
+                             <string>s曲线时间</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="4" column="0">
+                           <widget class="QLabel" name="label_14">
+                            <property name="toolTip">
+                             <string>减速度</string>
+                            </property>
+                            <property name="text">
+                             <string>减速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="2" column="0">
+                           <widget class="QLabel" name="label_15">
+                            <property name="toolTip">
+                             <string>起始速度</string>
+                            </property>
+                            <property name="text">
+                             <string>起始速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QWidget" name="widget_18" native="true">
+                      <layout class="QGridLayout" name="gridLayout_3">
+                       <item row="2" column="0">
+                        <widget class="QRadioButton" name="continueBut2">
+                         <property name="text">
+                          <string>持续运动</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QRadioButton" name="motionBut2">
+                         <property name="text">
+                          <string>电机寸动</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="4" column="0">
+                     <widget class="QWidget" name="widget_7" native="true">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>185</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>185</height>
+                       </size>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_22">
+                       <item row="0" column="1" colspan="2">
+                        <widget class="QLabel" name="label_20">
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>倍数选择：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="3">
+                        <widget class="QComboBox" name="comboBox_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string>16倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>16.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>17倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>17.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>18倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>18.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>19倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>19.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>20倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>20.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>21倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>21.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>22倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>22.5倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>23倍</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>23.5倍</string>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                       <item row="1" column="1">
+                        <widget class="QLabel" name="label_21">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>串口选择：</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="1" colspan="2">
+                        <widget class="QPushButton" name="pushButton_6">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>开始放大</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="3">
+                        <widget class="QPushButton" name="OpenSerialButton_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>打开串口</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="1" rowspan="2" colspan="3">
+                        <widget class="QTextEdit" name="DataReceived_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>500</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="5" column="1" colspan="3">
+                        <widget class="QPushButton" name="autoFocous">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(0, 170, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>开始聚焦</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="3">
+                        <widget class="QComboBox" name="PortBox_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="baseSize">
+                          <size>
+                           <width>0</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="toolTip">
+                          <string>串口选择</string>
+                         </property>
+                         <item>
+                          <property name="text">
+                           <string>刷新</string>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="toolTip">
+             <string>ip连接</string>
+            </property>
+            <property name="text">
+             <string>ip连接：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QPushButton" name="connectIP">
+            <property name="toolTip">
+             <string>连接ip</string>
+            </property>
+            <property name="text">
+             <string>连接IP</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="IPEdit">
+            <property name="toolTip">
+             <string>ip地址</string>
+            </property>
+            <property name="placeholderText">
+             <string>请输入</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="2">
+         <widget class="QPushButton" name="aotoPicture">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>自动采图</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="advancePreview">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>图片预览</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="showCamera">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>相机显示</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>30</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="3" column="0" colspan="6">
+         <widget class="QLabel" name="showimage">
+          <property name="focusPolicy">
+           <enum>Qt::StrongFocus</enum>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QPushButton" name="yolov5Btn">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>yolo检测</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
